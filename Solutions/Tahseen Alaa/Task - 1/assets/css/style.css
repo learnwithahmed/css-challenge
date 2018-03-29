@@ -4,14 +4,14 @@ html, body {
 }
 
 header {
-    margin: 50px auto auto 50px;
+    margin: 50px auto;
     text-align: center;
-    left: 20%;
+    /* left: 20%; */
 }
 
-section {
+/* section {
     text-align: center;
-}
+} */
 
 h1 {
     font-size: 50px;
@@ -32,9 +32,13 @@ h4 {
     margin: 100px auto auto 50px;
     border-radius: 3px;
     box-shadow: 10px 10px 50px 30px #EFF0F4;
-    padding: 50px 50px 50px 50px;
+    /* padding: 50px 50px 50px 50px;
     left: 27%;
-    text-align: center;
+    text-align: center; */
+    
+    /* Fix by Ahmed Abdullah */
+    margin: 100px auto 50px;
+    padding: 50px;
 }
 
 .container {
