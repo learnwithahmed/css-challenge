@@ -1,0 +1,28 @@
+
+
+.border{
+    border: 1px solid salmon;
+}
+.container{
+    /* display: flex; */
+    margin: 100 auto;
+    width: 90%;
+    
+    /* align-content: center; */
+    
+}
+.row1{
+   
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    margin: auto;
+    width: 60%;
+    font-size: 20px;
+}
