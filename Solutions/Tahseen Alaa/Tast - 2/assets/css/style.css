@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    border: 1px #111 solid;
+    width: 600px;
+    height: 800px;
+    position: relative;
+    margin: 50px auto;
+    box-shadow: -10px 20px 200px 5px hsl(199, 26%, 74%);
+}
+
+header {
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.mainSection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.fieldsSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputSide {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px;
+}
+
+.inputSide input,select {
+    font-size: 25px;
+    margin-top: 35px;
+    padding-bottom: 25px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px #C2C2C2 solid;
+    color: #C2C2C2;
+}
+
+.textSide {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    margin-left: 40px;   
+}
+
+.textSide p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
