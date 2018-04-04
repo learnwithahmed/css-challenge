@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    padding: 0 40px;
+    margin-bottom: 80px;
+
+}
+
+.container {
+    width: 500px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-25 {
+    flex: 1;
+    padding: 30px;
+    width:100%;
+    
+}
+
+.col-75 {
+   
+    flex: 3;
+    padding: 20px;
+    margin-right: 40px; 
+    width:100%;
+}
+
+label {
+    display: inline;
+    margin:0px;
+    padding:0px;
+}
+
+input, select {
+    outline:none;
+    border: none;
+    border-bottom: 1.5px solid #d7d1d1;
+    color: #d7d1d1;
+    opacity: 0.75;
+    padding-bottom:15px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+input::placeholder{
+    color: #d7d1d1;
+}
+
+p{
+    margin-bottom:45px;
+}
