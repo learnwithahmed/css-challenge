@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228,229,231);
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.container > .header > h2, .container > .header > p{
+    color: rgb(83,82,82);
+    font-weight: bold;
+}
+
+.container > .header > p {
+    font-size: 0.7em;
+    width: 70%;
+}
+
+
+.container > .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > .body > .langs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.container > .body > .langs > span {
+    display: block;
+    margin: .5em 1em;
+}
+
+.container > .body > .langs > span > label{
+    display: block;
+    background-color: rgb(241,242,241);
+    color: #000;
+    padding: .8em 2em;
+    border-radius: 5px;
+    transition: all ease-in .2s;
+    cursor: pointer;
+}
+
+.container > .body > .langs > span > input[type="checkbox"]:checked + label{
+    background-color: rgb(20,223,223);
+    color: #fff;
+    transition: all ease-in .2s;
+}
+
+.container > .body > .buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em 1em;
+}
+
+.container > .body > .buttons > a{
+    color: rgb(167,167,167);
+    text-decoration: none;
+    padding: 1em 3.5em;
+    border: 1px solid rgb(161,196,139);
+    margin: 0 1em;
+    border-radius: 30px;
+    outline: none;
+    transition: background-color linear .2s;
+}
+
+.container > .body > .buttons > a:active{
+    background-color: rgb(161,196,139);
+    color:#fff;
+}
+
+.container > .body > .buttons > a:nth-child(1){
+    text-transform: capitalize;
+}
+
+.container > .body > .buttons > a:nth-child(2){
+    text-transform: uppercase;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
