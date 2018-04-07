@@ -13,18 +13,18 @@ body{
     padding: 2em;
 }
 
-.container > .header{
+.header{
     font-size: 2em;
     margin: 0;
 }
 
-.container > .input {
+.input {
     display: flex;
     margin: 2em 0;
     justify-content: space-between;
 }
 
-.container > .input > p{
+.input > p{
     text-align: left;
     font-weight: bold;
     margin: 0 1em;
@@ -32,8 +32,8 @@ body{
     align-items: center;
 }
 
-.container > .input > input[type="text"] ,
-.container > .input > input[type="email"]{
+.input > input[type="text"] ,
+.input > input[type="email"]{
     border: none;
     padding: 1em;
     padding-left: 0 !important;
@@ -42,12 +42,12 @@ body{
     transition: all linear .3s;
 }
 
-.container > .input > input[type="text"]:focus ,
-.container > .input > input[type="email"]:focus{
+.input > input[type="text"]:focus ,
+.input > input[type="email"]:focus{
     border-color: grey;
 }
 
-.container > .input > select{
+.input > select{
     width: 69%;
     background-color: transparent;
     border: none;

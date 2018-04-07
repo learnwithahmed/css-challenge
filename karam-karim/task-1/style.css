@@ -12,42 +12,42 @@ body{
     align-items: center;
 }
 
-.container > .header{
+.header{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
 }
 
-.container > .header > h2, .container > .header > p{
+.header > h2, .header > p{
     color: rgb(83,82,82);
     font-weight: bold;
 }
 
-.container > .header > p {
+.header > p {
     font-size: 0.7em;
     width: 70%;
 }
 
 
-.container > .body{
+.body{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container > .body > .langs {
+.langs {
     display: flex;
     flex-wrap: wrap;
     width: 70%;
 }
 
-.container > .body > .langs > span {
+.langs > span {
     display: block;
     margin: .5em 1em;
 }
 
-.container > .body > .langs > span > label{
+.langs > span > label{
     display: block;
     background-color: rgb(241,242,241);
     color: #000;
@@ -57,13 +57,13 @@ body{
     cursor: pointer;
 }
 
-.container > .body > .langs > span > input[type="checkbox"]:checked + label{
+.langs > span > input[type="checkbox"]:checked + label{
     background-color: rgb(20,223,223);
     color: #fff;
     transition: all ease-in .2s;
 }
 
-.container > .body > .buttons{
+.buttons{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -71,7 +71,7 @@ body{
     padding: 2em 1em;
 }
 
-.container > .body > .buttons > a{
+.buttons > a{
     color: rgb(167,167,167);
     text-decoration: none;
     padding: 1em 3.5em;
@@ -82,16 +82,16 @@ body{
     transition: background-color linear .2s;
 }
 
-.container > .body > .buttons > a:active{
+.buttons > a:active{
     background-color: rgb(161,196,139);
     color:#fff;
 }
 
-.container > .body > .buttons > a:nth-child(1){
+.buttons > a:nth-child(1){
     text-transform: capitalize;
 }
 
-.container > .body > .buttons > a:nth-child(2){
+.buttons > a:nth-child(2){
     text-transform: uppercase;
 }
 

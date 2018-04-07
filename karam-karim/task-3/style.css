@@ -15,7 +15,7 @@ body{
 
 
 
-.container > .dropdown{
+.dropdown{
     background-color: #fff;
     list-style: none;
     position: relative;
@@ -23,7 +23,7 @@ body{
 
 }
 /* the header */
-.container > .dropdown::before{
+.dropdown::before{
     content: attr(data-text);
     color: lightgrey;
     font-size: 1.1em;
@@ -43,7 +43,7 @@ body{
 
 /* the country names */
 
-.container > .dropdown > .option{
+.option{
     color: grey;
     text-transform: capitalize;
     box-sizing: border-box;
@@ -57,7 +57,7 @@ body{
 }
 
 /*  the country image */
-.container > .dropdown > .option::before{
+.option::before{
     content: '';
     display: block;
     width: 40px;
@@ -71,18 +71,18 @@ body{
     background-size: 40px;
 }
 
-.container > .dropdown > .option:nth-child(1)::before{
+.option:nth-child(1)::before{
     background-image: url(france.png);
 }
 
-.container > .dropdown > .option:nth-child(2)::before{
+.option:nth-child(2)::before{
     background-image: url(germany.png);
 }
 
-.container > .dropdown > .option:nth-child(3)::before{
+.option:nth-child(3)::before{
     background-image: url(united-kingdom.png);
 }
 
-.container > .dropdown > .option:nth-child(4)::before{
+.option:nth-child(4)::before{
     background-image: url(poland.png);
 }
