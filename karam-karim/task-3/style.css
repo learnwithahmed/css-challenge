@@ -20,6 +20,7 @@ body{
     list-style: none;
     position: relative;
     border-radius: 5px;
+    box-shadow: 0 0 70px 10px #000;
 
 }
 /* the header */
@@ -29,16 +30,18 @@ body{
     font-size: 1.1em;
     font-weight: bold;
     padding: 1.5em;
-    width: 20em;
+    width: 22em;
     display: flex;
     background-color: #fff;
     border-radius: 5px;
     position: absolute;
     top: -40%;
+    left: 0;
     background-image: url(arrow-down.png);
     background-position: calc(100% - 10px);
     background-repeat: no-repeat;
     background-size: 16px;
+    box-shadow: 0 0 70px 10px #000;
 }
 
 /* the country names */
