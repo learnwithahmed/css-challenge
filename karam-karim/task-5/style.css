@@ -30,6 +30,7 @@ body{
 
 .item{
     padding: 1em;
+    padding-left: 2em;
     position: relative;
 }
 
