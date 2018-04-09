@@ -1,0 +1,149 @@
+
+
+    img{
+
+        display: inline-block;
+        
+        }   
+        
+        p{   
+         
+            display: inline-block;
+        }
+    
+        ul{
+        list-style-type:none; 
+        display: flex;
+        justify-content:space-between;
+       }
+    
+    li{
+        display: inline-block;    
+        
+    }
+    
+    a{
+        
+        text-decoration: none;   
+    
+    }
+
+    body{
+        margin-top: 5px;
+    
+    }
+    
+    .container{
+        width: 800px;     
+        margin: 0 auto;
+        border: 2px solid silver;      
+        height:800px ;
+    
+    }
+
+    .header{
+        font-variant: small-caps;
+        font-size: 20px;
+        opacity: 0.6;
+        margin-left: 45px;
+        font-weight: bold;
+        
+        
+    }
+
+   pre{
+        display: flex;
+        display:inline-block;    
+        line-height: 0px; 
+        
+        }
+
+    .small{
+        font-size: 14px;
+    }
+
+    hr{
+     width: 700px;
+     opacity: 0.4;
+   
+    }
+
+    #png{
+        widows: 70px;
+        height:80px ;
+        padding:px;
+        margin-top: 15px; 
+       }
+       .text1{    
+        margin-left:30px;
+        font-size: 18px;
+        font-weight: bold;
+        opacity: 0.8;
+    
+        
+        
+        }
+        .text2 {
+          opacity:0.4; 
+          margin-left: 35px;
+            font-size: 18px;
+           font-weight: bold;
+        
+        }
+
+
+
+
+    .num{
+    margin-right:40px; 
+    padding:45px; 
+    font-size:18px ;
+    font-weight:bold ;
+    opacity: 0.8;
+
+    }
+   
+    .btn{
+       
+        padding:45px;    
+       }
+
+    .btn2{
+     height: 30px;  
+     width: 30px ;
+     border-radius: 5px;
+      background-color: white;
+      
+       margin-top: px;
+       text-align: center;
+    }
+    .btn3{
+        color: white;
+        background-color:rgb(21, 172, 172); 
+      }
+      .btn4{
+         height: 60px;
+         width: 250px;
+         margin-left: 300px;
+         margin-top: 10px;
+         background-color: white;
+         border: 1px solid rgb(21, 172, 172);
+         color: rgb(21, 172, 172);
+         font-size:16px ;         
+        
+      }     
+    
+  
+    .footer1{
+        margin-left: 20px;
+        font-size:18px ;
+        font-weight:bold ;
+        opacity: 0.8;
+       }
+ 
+       .footer2{
+     margin-right: 75px;
+     font-size:18px ;
+     font-weight:bold ;
+     opacity: 0.8;
+       }

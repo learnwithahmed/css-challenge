@@ -1,0 +1,132 @@
+body{
+    margin-top: 200px;
+
+}
+html{
+    background-color: black;
+}
+
+.container{
+    width: 100%px;     
+    margin: 0 auto;
+      
+   background-color: white;
+    height:400px ;
+
+}
+
+.table{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height:350px ;  
+    border: 2px solid rgb(189, 183, 181);
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: space-around;
+    
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-around;
+       flex-direction: row;
+       background-color: silver;
+       width: 450px;
+       margin-bottom: 18px;
+       border-radius: 10px;
+       border-bottom: none;
+       border: 1px solid slategrey;
+      
+       }
+    
+   
+
+     #png{
+         height: 80px;
+         width: 80px;
+         margin-top: 20px;
+         margin-right: 1px;
+         border-radius: 50px;
+         border: 2px solid ;
+     }
+     .hiden{
+        
+         line-height: 0px;
+         margin-top: 5px;
+         opacity: 0.5;
+       
+     }
+  
+
+      .par2{           
+        margin-bottom: 60px;
+        margin-left: 10px;
+       }
+
+       .par3{
+        margin-bottom: 85px; 
+        margin-right: 1px; 
+
+       }
+
+        
+        p{   
+         
+            display: inline-block;
+            font-size: 20px;
+            font-weight: bold;
+            margin-right:60px; 
+            
+            
+        }
+    
+        ul{
+        list-style-type:none;  
+        }
+    
+    li{
+        display: inline-block;
+        
+    }
+    
+    a{
+        opacity: 0.5;
+        text-decoration: none; 
+        font-size:20px;
+      
+    
+    }
+ 
+    .footer{
+      margin-left: 10px;
+      display: flex;
+      justify-content:space-around;
+    }
+
+    
+
+    
+    button{
+        margin-right: 10px;
+      justify-content:center;   
+      display: flex;
+      margin-left:190px; 
+   
+       border-radius:10px ;
+       height: 40px;
+       width: 120px;
+       text-align: center;
+    }
+   
+  
+

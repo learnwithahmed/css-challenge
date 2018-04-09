@@ -1,0 +1,85 @@
+label{
+    display:flex; 
+    padding-top: 50px;  
+
+}
+
+input{
+
+border-top: none;
+border-left:none;
+border-right: none;
+border-bottom: none;
+display: flex;
+margin-left:30px; 
+padding-bottom: 10px;
+margin-left: 60px;
+font-size: 24px;
+opacity: 0.5;
+color: black;
+
+}
+
+
+body{
+    margin-top: 0px;
+    background: black;
+}
+
+.container{
+    width: 600px;     
+    margin: 0 auto;
+    border: 1px solid #e0d8d8;  
+    display: flex;
+    flex-direction: column;
+     height:825px  ;
+     background: white;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 0px;
+    text-shadow: 2px 2px 2px #3a3939;
+}
+
+label{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 40px; 
+    text-shadow: 1px 1px 1px #3a3939;  
+
+}
+
+/*input{
+border-bottom: 3px solid  #e0d8d8;
+width:350px ;
+margin-right:25px;
+margin-left: 60px;
+
+}*/
+
+
+
+
+hr{
+    border-width: 4px; 
+    color: rgb(59, 58, 58);
+   border-bottom: 0px solid  rgb(59, 58, 58);
+    opacity: 0.2; 
+    width:350px ;
+    margin-right:25px;
+    margin-left: 190px;  
+    border-radius: 20px; 
+}
+
+select{
+    border: none;
+    color:white;
+    width: 20px;
+    height: 20px; 
+    margin-left:70px;
+     text-decoration-line: none;
+     text-decoration-style: none;
+}
