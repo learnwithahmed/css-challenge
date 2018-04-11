@@ -1,0 +1,130 @@
+/** media **/
+
+@media (min-width: 576px) {
+    .container{
+        max-width: 540px
+    }
+
+    .langs .select,
+    .langs .language{
+         width: 80% !important
+    }
+}
+
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 720px
+    }
+
+    .langs .select,
+    .langs .language{
+         width: 60% !important
+    }
+}
+
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 960px
+    }
+
+    .langs .select,
+    .langs .language{
+         width: 40% !important
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px
+    }
+}
+
+@media (max-width: 575px){
+    .langs .select,
+    .langs .language{
+         width: 100% !important
+    }
+}
+
+@media (max-width: 325px){
+     .langs .language div span{
+          font-size: 14px
+     }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Changa', sans-serif;
+    background-color: #ccc
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.langs{
+     padding-top: 40px
+}
+
+.langs .select,
+.langs .language{
+     background-color: #fff;
+     padding: 30px;
+     margin: 10px auto;
+     border-radius: 10px
+}
+
+.langs .select .selected{
+     padding: 10px;
+     border: none;
+     border-bottom: 1px solid #ddd;
+     outline: none;
+     width: 80%;
+     margin-bottom: 20px
+}
+
+.langs .select i{
+     border: 2px solid #00f;
+     border-radius: 50%;
+     outline: none;
+     padding: 3px;
+     margin-left: 10px;
+     transition: .3s;
+     -webkit-transition: .3s;
+     -moz-transition: .3s;
+     -o-transition: .3s;
+}
+
+.langs .select i:hover{
+     background-color: #00f;
+     color: #fff;
+     cursor: pointer
+}
+
+.langs .language div{
+     margin: 5px 0;
+}
+
+.langs .language div img{
+     width: 15% !important;
+     height: 40px
+}
+
+.langs .language div span{
+     padding-left: 15px;
+     position: relative;
+     top: -13px;
+     color: #0083e0;
+}
