@@ -1,0 +1,70 @@
+.container {
+
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.089);
+    justify-content: center;
+    padding: 20px;
+    color:#868383;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 20px;
+   
+}
+
+*{
+    margin: 0;
+  
+}
+.btn{
+   margin: 10px;
+    text-decoration: none;
+    padding:7px  20px ;
+    border-radius: 40px;
+    display: inline-block;
+    color:#868383;
+    border:1px;
+    border: 1px solid #c7d2f177;
+    
+}
+
+.skills{
+    padding: 20px 0;
+   
+    border-bottom : 1px solid #ddd;
+}
+.about{
+border-bottom : 1px solid #ddd;
+line-height: 1.6;
+padding: 10px 0;
+}
+.lang{
+    padding: 20px 0;
+}
+
+.lang a{
+    display: inline-block;
+    margin: 0 20px 0 0; 
+    text-decoration: none;
+    color:#6d6b6b;
+    font-weight: 100;
+    font-size: 90%;
+
+}
+
+img{
+    position: relative;
+    top: 5px;
+    margin:auto 2px auto 0;
+    display: inline-block;
+    height: 20px;
+    width: auto;
+   
+}
+
+h5{
+    margin: 0 0 10px 0;
+}
+
+p{
+    margin: 0 0 10px 0 ;
+}
