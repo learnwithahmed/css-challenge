@@ -1,0 +1,86 @@
+body
+{
+    background: linear-gradient(345deg, #EFF0F4 45%, white 45%);
+   
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.header
+{
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+ 
+}
+
+.header .header-title
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header .header-content
+{
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+button
+{
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 15px;
+    background: #EFF0F4;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.body
+{
+   
+    background: white;
+    box-shadow:  0px 7px 20px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+.body .row
+{
+    margin-bottom: 25px;
+}
+
+.body .row button.active
+{
+    background: #1ECDE2;
+}
+.selction
+{
+    margin-top: 75px;
+}
+
+.selction button
+{
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: #B9BAC0;
+    border: 2px solid #B9BAC0;
+    background: transparent;
+}
+
+.selction button:not(:first-child)
+{
+    background: #AED581;
+    color: white;
+}
