@@ -1,9 +1,11 @@
 # CSS Challenge
-In this task you will going to apply all knowledge you have learned about CSS. Please submit your solution in a seperate **branch** holding the source code of all below described problems and then make a pull request to merge it with **master** branch.
+In this task you will going to apply all knowledge you have learned about CSS. Please submit your solution in a 
+seperate **branch** holding the source code of all below described problems and then make a pull request to merge it with **master** branch.
 
 ### Task List
 
-The tasks will be a set of images that you will convert them into HTML markdown and then apply the appropriate **CSS** property to get the same **UI** look as shown in the **Images**
+The tasks will be a set of images that you will convert them into HTML markdown and then apply the appropriate **CSS** 
+property to get the same **UI** look as shown in the **Images**
 
 
 ### How to Submit your Solution

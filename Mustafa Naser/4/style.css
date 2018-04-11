@@ -1,0 +1,144 @@
+body {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+}
+h1 {
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-align: left;
+  height: 10px;
+}
+p {
+  font-size: 1em;
+
+  padding-bottom: 10px;
+  color: rgb(59, 59, 59);
+  
+  text-align: left;
+
+}
+.img{
+  margin-left: 10%;
+  width: 15%;
+  height: 8vh;
+
+}
+.mg{
+  width: 70%;
+  
+
+}
+.updiv {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 50px 5%;
+  height: 40vh;
+  background-color: white;
+  justify-content: space-between;
+}
+.middiv {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 15px 1px rgb(206, 205, 205); /* Firefox 3.5 - 3.6 */
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.dodiv1 {
+  display: flex;
+  background-color: rgb(227, 233, 238);
+  height: 15vh;
+  align-items: center;
+  justify-content: space-around; 
+}
+
+.dodiv2 {
+  font-size: 16px;
+  padding: 15px;
+  text-align: left;
+}
+.dodiv3 {
+  display: flex;
+  width: 70%;
+  margin: 50px 15%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.checked {
+  color: orange;
+}
+.dod {
+  margin-left: 20px;
+}
+.dop {
+  margin-top: 10px;
+  color: rgb(59, 59, 59);
+
+}
+.rating {
+  float:left;
+border: none;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+ follow these rules. Every browser that supports :checked also supports :not(), so
+ it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+  clip:rect(0,0,0,0);
+  
+}
+
+.rating:not(:checked) > label {
+  float:right;
+  width:1em;
+  padding:0 .1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:150%;
+  line-height:1.2;
+  color:#ddd;
+}
+
+.rating:not(:checked) > label:before {
+  content: '★ ';
+  
+}
+
+.rating > input:checked ~ label {
+  color: rgb(53, 9, 248);
+  text-shadow:1px 1px rgb(71, 71, 68), 2px 2px rgb(46, 46, 46), .1em .1em .2em rgba(0,0,0,.5);
+
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: rgb(4, 0, 219);
+  text-shadow:1px 1px rgb(71, 71, 68), 2px 2px rgb(46, 46, 46), .1em .1em .2em rgba(0,0,0,.5);
+
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: rgb(44, 0, 238);
+}
+
+.rating > label:active {
+  position:relative;
+  top:2px;
+  left:2px;
+}

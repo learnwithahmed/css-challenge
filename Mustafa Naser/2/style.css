@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  justify-content: flex-start;
+  align-content: center;
+
+  /* justify-content: space-around; */
+}
+
+input {
+  width: 180px;
+  padding: 10px 10px;
+  border-style: none;
+  border-bottom-style: solid;
+}
+select {
+  width: 200px;
+  padding: 10px 10px;
+  border-style: none;
+  border-bottom-style: solid;
+  margin-bottom: 1em;
+  padding: 0.5em 3.5em 0.5em 1em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font: inherit;
+  background-color: white;
+
+
+}
+
+select.round {
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    radial-gradient(rgb(255, 255, 255) 70%, transparent 72%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - .5em) .5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1.5em 1.5em;
+  background-repeat: no-repeat;
+}
+
+select.round:focus {
+  background-image:
+    linear-gradient(45deg, white 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, white 50%),
+    radial-gradient(gray 70%, transparent 72%);
+  background-position:
+    calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - .5em) .5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1.5em 1.5em;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+span {
+  font-weight: 700;
+  font-size: 16px;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  margin: 0px 10px;
+}
+label {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}

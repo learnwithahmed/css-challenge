@@ -1,0 +1,47 @@
+
+body{
+  background-image: radial-gradient(circle, #ffffff 0%, #f1f1f1 100%);}
+
+
+div {
+  font-size: 22px;
+  display: flex;
+  font-weight: 700;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px 5px 10px 20px;
+}
+
+
+hr {
+  width: 20%;
+  color: gray;
+  border-style: inset;
+  border-width: 1px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+label {
+  padding: 3px 8px 5px;
+  border-radius: 2px;
+  border: transparent 1px solid;
+  margin-bottom: 15px;
+}
+a:hover{
+  color: #7aaaf1;
+  border-left: rgb(35, 252, 35) solid;
+
+}
+a{
+color: rgb(97, 96, 96);
+text-decoration: none;
+padding-left: 20px;   cursor: pointer;
+
+}
+a:active,a:focus,a:target{
+  color: #5990e2;
+  border-left: rgb(35, 252, 35) solid;
+
+
+}
