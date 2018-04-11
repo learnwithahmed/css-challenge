@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 40%;  
+}
+
+a {
+    text-decoration: none;
+    color: #888;
+}
+
+i {
+    color: #888;
+}
+
+.group {
+   
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.group > div {
+    padding: 20px 0;
+
+}
+
+.fa-th-large {
+    color: #3030fc;
+}
+
+a:hover {
+    color: #3030fc;
+}
+
+
+i:hover {
+    color: #3030fc;
+  
+}
+
+.active:before{
+    content:'' ;
+    display: block;
+    width: 3px;
+    height: 25px;
+    background: #76e676;
+    margin: 0;
+    position: absolute;
+    left:0;
+    right:0;
+    top:16px;
+    bottom:0;
+    border-radius: 5px;
+}
