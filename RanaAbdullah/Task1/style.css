@@ -1,0 +1,80 @@
+body{
+    background: #cccc;
+
+}
+.container{
+    background: linear-gradient(168deg,#fff 60%,#eeeef3 35%);
+    height: 500px;
+    width: 700px;
+    margin: 70px 350px;
+    text-align:center;
+    /* border: solid; */
+    border: 0.09rem outset black;
+
+    
+}
+h1{
+    padding-top: 50px;
+    margin-bottom: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-weight: bold;
+}
+p{
+    padding: 0px 150px;
+    font-size: 0.7em;
+    color: gray;
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
+.divGroupButtons{
+    background-color: white;
+    margin-top: 40px;
+    padding-top: 30px;
+    margin-left: 50px;
+    height: 180px;
+    width: 600px;
+    padding-left: 10px;
+    padding-right:10px;
+    /* border: 0.09rem outset black; */
+    /* border-radius: 0em; */
+    box-shadow: 1px 1px 18px 3px #eeecee;
+    /* box-shadow: 8px 8px 5px rgba(0,0,0,0.1em); */
+    /* box-shadow: 0 4px 10px rgba(0,0,0,0.1em); */
+}
+button{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 10px 15px;
+    border: none;
+    width: auto;
+    border-radius: 3px;
+    font-size: 0.6em;
+    color: #6a6868;
+    background-color: #eeeeee;
+
+}
+button.active{
+    color:white;
+    background-color: rgb(93, 194, 224)
+}
+.lastTwoButtons{
+    margin-top: 30px;
+
+}
+.lastTwoButtons button{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    border: 0.09rem outset #c0bcbc;
+    background-color: white;
+    color:rgb(150, 150, 150)
+    
+}
+.lastTwoButtons .active{
+    background-color: #b2e289;
+    border: none;
+    color: white;
+}
