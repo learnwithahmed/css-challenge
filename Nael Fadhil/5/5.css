@@ -1,0 +1,35 @@
+.side{
+    width: 250px; 
+
+}
+.selected{
+    width: 250px;
+    color: royalblue;
+    font-weight: bolder;
+     
+    border-left: 5px solid rgb(42, 199, 110)
+
+}
+.selected img{
+    vertical-align: -7px;
+    filter:drop-shadow(1px 1px 3px rgba(9, 13, 255, 0.39));
+    
+}
+
+ul {
+   
+    list-style-type: none;
+    border-top: 2px solid  2px solid rgba(149, 144, 149, 0.329);
+    border-bottom: 2px solid rgba(149, 144, 149, 0.329);
+}
+li{
+   padding: 20px 5px ;
+   
+  }
+li img {
+    width: 25px;
+    height: 25px;
+    padding: 0px 40px 0px 0px;
+    vertical-align: -7px;
+    
+}
