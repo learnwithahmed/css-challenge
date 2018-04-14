@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: Open Sans;
+    font-family: Open Sans, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
@@ -16,7 +16,7 @@ main{
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 100vh;
+    padding: 10% 0;
 }
 
 .container{
