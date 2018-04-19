@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    width:1020px;
+  background-color: #ccc;
+}
+
+.container
+{  
+width:980px;
+height: 580px;
+margin: 50px 180px;
+padding: 10px;
+background-color: white;
+background-image: linear-gradient(160deg, white, black);
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    text-indent: 100px;
+    padding-bottom: 20px;
+}
+
+.allButtons{
+    background: #ffffffbd;
+    margin: 10px 80px;
+    padding: 50px 40px;
+    
+}
+
+.allButtons button{
+    margin: 7px 15px;
+    padding: 7px 11px;
+    border-radius: 5px;
+    border: none;
+}
+
+.color{
+    background: #00BCD4;
+}
+
+.allButtons .tButton{
+       margin-top: 20px;
+        margin-left: 240px;
+
+}
+.allButtons .tButton .proceed{
+    background:#8BC34A;
+    color:#fff;
+}
+
+.allButtons .tButton button{
+       border-radius: 15px;
+    background: transparent;
+    border: 1px solid #ada4a4;
+}
