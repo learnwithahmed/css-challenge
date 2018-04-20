@@ -1,0 +1,52 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body{
+     background-color: #fcfcfc
+}
+
+.nav{
+     position: absolute;
+     width: 20%;
+}
+
+hr{
+     margin: 0 25px;
+     border: 1px solid #ccc;
+}
+
+.nav ul{
+     list-style: none;
+     padding: 20px 0;
+}
+
+.nav ul li{
+     margin: 15px 3px;
+     padding: 5px 20px
+}
+
+.nav ul li:not(.active){
+     padding-left: 24px
+}
+
+.nav ul .active{
+     border-left: 4px solid #ccc
+}
+
+.nav ul .active a{
+     color: #00f;
+}
+
+.nav ul li a{
+     color: #547eb2;
+     text-decoration: none;
+}
+
+.nav ul li a span{
+     padding-left: 20px;
+     font-weight: bold;
+     font-size: 17px
+}
