@@ -1,0 +1,44 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;   
+    padding: 25px;
+    color: #9FA8C7;
+}
+
+.content table
+{
+    padding: 10px;
+    border-collapse: collapse;
+}
+.content table td
+{
+    padding: 25px;  
+}
+
+.content table tr:first-child td:first-child i
+{
+    color: blue;
+}
+
+.content table tr:first-child, .content table tr:nth-child(6n), .content table tr:last-child
+{
+    border-bottom: 2px solid #9FA8C7;
+}
+
+.content table tr:first-child::after
+{
+    content: "";
+    position: absolute;
+    top: 70px;
+    left:510px;
+    background: #2DC39A;
+    display: block;
+    width: 7px;
+    height: 30px;
+    border-radius: 5px;
+}
