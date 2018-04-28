@@ -1,0 +1,115 @@
+@media (min-width: 576px) {
+    .container{
+        max-width: 540px
+    }
+
+    .profiles .profile{
+       width: 80% !important;
+  }
+}
+
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 720px
+    }
+
+    .profiles .profile{
+        width: 60% !important;
+   }
+
+}
+
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 960px
+    }
+    .profiles .profile{
+        width: 40% !important;
+   }
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px
+    }
+}
+
+@media (max-width: 576px){
+     .profiles .profile{
+       width: 100% !important;
+    }
+    .container{
+         margin: 0 !important;
+         padding: 0 !important
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Changa', sans-serif;
+    background-color: #fff
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.profiles .profile{
+     margin: 0 auto;
+     background-color: #eee;
+     padding-bottom: 25px
+}
+
+.profiles .profile h2{
+     padding: 24px 0;
+     border-bottom: 1px solid #c5c5c5;
+     margin: 0 30px
+}
+
+.profiles .profile .person{
+     padding: 20px 20px 4px;
+}
+
+.profiles .profile .person img{
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     margin: 0 20px
+}
+
+
+.profiles .profile .person .info{
+     display: inline-block;
+     position: relative;
+}
+
+.profiles .profile .person .info p{
+     padding: 9px 0;
+     color: #989898;
+     font-size: 12px
+}
+
+.profiles .profile .person .info .b{
+     color: #3750fc
+}
+
+.profiles .profile .person .info .f{
+     color: #15cf4e
+}
+
+.profiles .profile .person .info .b,
+.profiles .profile .person .info .f{
+     font-size: 13px
+}

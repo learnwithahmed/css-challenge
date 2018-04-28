@@ -1,0 +1,104 @@
+@media (min-width: 576px) {
+    .container{
+        max-width: 540px
+    }
+}
+
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 720px
+    }
+}
+
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 960px
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Changa', sans-serif;
+    background-color: #ddd
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-skils{
+     background-color: #fff;
+     padding: 30px;
+     margin: 40px 0
+}
+
+.about-skils .about,
+.about-skils .skils{
+     border-bottom: 1px solid #ddd;
+}
+
+.about-skils .about p{
+     font-weight: bold;
+     padding: 20px 0;
+     line-height: 1.7;
+     color: #3c879e;
+}
+
+.about-skils .skils h2,
+.about-skils .lang h2{
+     padding-top: 20px
+}
+
+.about-skils .skils ul,
+.about-skils .lang ul{
+     list-style: none;
+     padding: 20px 0;
+}
+
+.about-skils .skils ul li{
+     display: inline-block;
+     border: 1px solid #3c879e;
+     border-radius: 40px;
+     padding: 13px;
+     margin: 15px 5px !important;
+     transition: .5s;
+     -webkit-transition: .5s;
+     -moz-transition: .5s;
+     -ms-transition: .5s;
+     -o-transition: .5s;
+}
+
+.about-skils .skils ul li:hover{
+     background-color: #3c879e;
+     color: #fff;
+     cursor: pointer;
+}
+
+
+.about-skils .lang ul li{
+     display: inline-block;
+     width: 100px;
+     color: #3c879e
+}
+
+.about-skils .lang ul li img{
+     width: 25%;
+}
