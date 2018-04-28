@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Changa', sans-serif;
+    background: #ddd;
+}
+
+.center{
+     display: flex;
+     justify-content: center;
+}
+
+.box{
+     background: #fff;
+     position: absolute;
+
+}
+
+.box .title{
+     padding: 20px;
+     border-bottom: 1px solid #ddd;
+     position: relative;
+}
+
+.box .title span{
+     padding: 10px 25px;
+     font-weight: bold;
+}
+
+.box .title::before{
+     position: absolute;
+     display: block;
+     content: "";
+     border-bottom: 2px solid #00dcff;
+     height: 10px;
+     width: 50%;
+     bottom: 0;
+     left: 0;
+}
+
+.box .choose{
+     padding: 10px 0;
+     position: relative;
+     border-bottom: 1px solid #ddd;
+}
+
+.box .choose p,
+.box .date p{
+     color: #82b8c1;
+     padding: 10px 15px
+}
+
+.box .choose input,
+.box .date input{
+     margin: 0 16px;
+     padding: 15px;
+     width: 90%;
+     border: 1px solid #ddd;
+     box-shadow: 0 0 4px inset #ccc;
+     position: relative;
+}
+
+.box .choose span{
+     background-color: #0060ee;
+     border-radius: 50%;
+     height: 20px;
+     width: 20px;
+     position: absolute;
+     right: 35px;
+     top: 60px;
+}
+
+.box .choose a,
+.box .date a{
+     text-decoration: none;
+     color: #00dcff;
+}
+
+.box .date{
+     padding: 10px 0;
+     border-bottom: 1px solid #ddd;
+}
+
+.box .date input{
+     width: auto;
+
+}
+
+.box .date input:first-of-type{
+     margin-left: 14px !important;
+}
+
+.box .date input:last-of-type{
+     margin-right: 14px !important;
+}
+
+.box .botton{
+     padding: 15px 20px;
+     position: relative;
+}
+
+.box .botton a{
+     text-decoration: none;
+     color: #82b8c1;
+     display: inline-block;
+}
+
+.box .botton a:first-of-type{
+     color: #fff;
+     background-color: #00dcff;
+     padding: 15px 20px;
+     border-radius: 30px
+}
+
+.box .botton a:last-of-type{
+     position: absolute;
+     right: 30px;
+     top: 30px;
+}

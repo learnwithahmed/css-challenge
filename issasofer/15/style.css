@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Changa', sans-serif;
+}
+
+.search-item{
+     background-color: #10227b;
+     position: absolute;
+     padding: 15px;
+     width: 290px;
+     height: 100%;
+}
+
+.search-item .s{
+     padding: 15px;
+     width: 90%;
+     background: none;
+     border: none;
+     color: #fff;
+     margin: 10px 0;
+     outline: none
+}
+
+.search-item .s::placeholder{
+     color: #fff
+}
+
+.search-item i{
+     color: #fff;
+     position: relative;
+     right: 30px;
+     cursor: pointer;
+}
+
+.search-item .items .item{
+     padding: 10px
+}
+
+.search-item .items .item label{
+     padding-left: 35px;
+     color: #5f87b9;
+     position: relative;
+}
+
+.search-item .items .item .b{
+     background-color: #0072ff;
+     padding: 13px 75px 13px 35px;
+     border-radius: 10px;
+     color: #fff;
+}
+
+.search-item .items .item span{
+     content: "";
+     width: 15px;
+     height: 15px;
+     border: 2px solid #fff;
+     display: inline-block;
+     left: -15px;
+     top: 3px;
+     position: relative;
+}
+
+.search-item .items .item .p::before{
+     border: 2px solid #ff9191;
+}
+
+.search-item .items .item .g::before{
+     border: 2px solid #39dae2;
+}
+
+.search-item .items .item .o::before{
+     border: 2px solid #f8850f;
+}
