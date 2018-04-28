@@ -37,11 +37,13 @@ ul{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height:100px; 
+    height:140px; 
     margin-bottom: 20px;
-    margin-top: 70px;
+    margin-top: 70px; 
+    
    
 }
+
 .body{
     width: 500px;     
     margin: 0 auto;  
@@ -49,7 +51,7 @@ ul{
     background-color: white;
     display: flex;
     flex-direction: column;
-    height:300px;
+    height:300px;   
    
 }
 
@@ -63,27 +65,34 @@ ul{
     h2{
         margin-left: 30px;
         margin-top: 30px;
-        color: #3b3939; 
+        color: #2e2961; 
         opacity: 0.5;
+        text-shadow: 0.3px 0.3px 0.3px rgb(109, 109, 194); 
         font-weight:bold; 
       display: flex;
     }
     
     p{
-        color: #3b3939; 
+        color: #2e2961; 
         opacity: 0.5; 
         margin-left: 30px;
         font-weight:bold; 
+        text-shadow: 0.3px 0.3px 0.3px rgb(109, 109, 194); 
     } 
     hr{
-        color: #3b3939;   
+        color: rgb(103, 103, 204);
+        width: 380px;  
+        margin-top:0px; 
+        margin-left: 30px;       
+        opacity: 0.1;
+        box-shadow: 0.2px 0.2px 0.2px rgb(109, 109, 194);
     }
 
-    #mg{
+    #mghead{
         border-radius: 30px;
         width:25px ;
         height:25px ;
-        border: 2px solid  rgb(79, 63, 122);       
+        border: 3px solid  blue;              
         margin-left: 250px;
     }
 

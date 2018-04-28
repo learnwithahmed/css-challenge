@@ -35,10 +35,18 @@ i{
     display: flex;
     flex-direction: column;
     height:350px;  
-    margin-top:70px;
-   
+    margin-top:70px;   
    
 }
+
+.container2{    
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+
 
 .box {
     color:rgb(68, 67, 67);
@@ -56,13 +64,7 @@ i{
     
   
   }
-  .container2{    
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-around;
-
-  }
-
+ 
   .btn{
     align-items: center;
     display: flex;   

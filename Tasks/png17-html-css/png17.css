@@ -1,0 +1,40 @@
+
+body{
+    margin-top:0px;  
+
+}
+.container{
+    width: 700px;     
+    margin: 0 auto;     
+    background-color: rgb(94, 94, 95); 
+    display: flex;
+   /* flex-direction: column;*/
+    height: 750px;
+    margin-bottom:80px;
+    margin-top: 0px;
+
+}
+.container1{
+
+    width: 650px;     
+    margin: 0 auto;
+    background-color: white;    
+    display: flex; 
+    flex-direction: column; 
+    height:730px;
+    margin-top:10px;
+    margin-bottom:10px; 
+    
+}
+hr{
+    width: 650px;
+
+}
+
+
+
+
+
+
+
+
