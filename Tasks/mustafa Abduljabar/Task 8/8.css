@@ -1,0 +1,137 @@
+body {
+    background: #F7F8F9;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin: 25px;
+    padding: 10px;
+}
+
+.top-header h1 {
+    display: inline-block;
+    color: #191D29;
+    text-transform: capitalize;
+}
+
+.top-header span {
+    color: #E34A61;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: first baseline;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    width: 40%;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.row:nth-child(odd) {
+    margin-right: 40px;
+}
+
+.row ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.row ul li {
+    color: #B9BFCA;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.row ul li:last-child {
+    background: #ECEFF2;
+    color: #ADB4BD;
+    margin-left: 15px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.box {
+    background: white;
+    box-shadow: 0px 0px 100px rgba(247, 249, 248, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box h1.box-header,
+span.box-fees {
+    padding: 5px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.box h1.box-header {
+    width: 70%;
+    text-transform: capitalize;
+}
+
+.box span.box-fees {
+    margin-left: 3%;
+    border-radius: 50%;
+    background: #F9F3EF;
+    color: #E86B7D;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box p.box-content {
+    color: #C8CDD2;
+    margin: 5% 0;
+    font-size: 18px;
+}
+
+.box span.box-sign {
+    margin-right: 2%;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background: #B6D4F5;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #5497E1;
+    text-transform: uppercase;
+}
+
+.box h2.box-name {
+    width: 50%;
+    text-transform: capitalize;
+    margin-right: 2%;
+}
+
+.box i {
+    color: #CCD0D3;
+    margin-right: 1%;
+}
+
+.box span.box-days {
+    text-transform: capitalize;
+    color: #ED8A9A;
+    font-weight: bold;
+    font-size: 17px
+}
+
+.box:last-child {}
