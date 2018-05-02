@@ -18,7 +18,7 @@ html, body {
 }
 
 .square {
-    width: 30%;
+    width: 35%;
     height: auto;
     border: 1px solid lightgrey;
     border-radius: 15px;
@@ -28,36 +28,36 @@ html, body {
 }
 
 .headerOfSquare {
-    padding: 10px;
+    padding: 20px 5px;
     background-color: rgb(246, 247, 251);
-
+    height: auto;
     display: flex;
     flex-flow: row;
     justify-content: flex-start;
 }
 
 .headerOfSquare > div > h1 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 5px;
     color: rgb(111, 92, 129);
 }
 
 .headerOfSquare > div > label {
+    font-size: 14px;
     color: rgb(144, 129, 158);
 }
 
 .header-icon {
     width: 50px;
-    padding: 5px;
-    margin-right: 5px;
+    height: 50px;   
+     padding: 5px;
 }
 
 .bodyOfSquare {
-    height: 60%;
+    height: 150px;
     background-color: white;
     padding: 15px;
     text-align: center;
-
     display: flex;
     flex-flow: column;
     justify-content: space-between;
@@ -70,13 +70,17 @@ html, body {
 
 .stars-container {
     align-self: flex-end;
-    margin: 15px 0 10px 0;
+    height: 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
 }
 
 .stars-container > a {
+    align-self: center;
     text-decoration: none;
     color: rgb(138, 98, 175);
-    margin-left: 15px;
+    margin-left: 5px;
     cursor: pointer;
 
 }
@@ -87,8 +91,26 @@ html, body {
     cursor: pointer;
 }
 
-#icon:hover:after {
-    content: "Aloooo";
-    color: red;
-    font-size: 20px;
+#icon:hover {
+    transform: scale(1.3);
+    -webkit-filter: saturate(3);
+    filter: saturate(3);    
+}
+
+.afterDiv:hover:after {
+    content: "Competent";
+    position: absolute;
+    margin-left: -70px;
+    margin-top: 10px;
+    font-size: 16px;
+
+    width: 120px;
+    height: 20px;
+    padding: 5px;
+    background-color: rgb(8, 0, 44);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+
 }
