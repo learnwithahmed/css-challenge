@@ -1,0 +1,89 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    font-family: "Source Sans Pro","Roboto","Open Sans",Arial,sans-serif;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(170deg, rgb(244, 244, 245) 60%, rgb(235, 235, 235) 40%);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+div > h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgb(79, 83, 92);
+    margin: 10% auto 1% auto;
+}
+
+div > p {
+    margin: 15px auto;
+    width: 40%;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(128, 129, 131);
+    text-align: center;
+}
+
+.languages-container {
+    width: 50%;
+    margin: 5% auto;
+    border: 1px solid white;
+    background-color: white;
+    padding: 50px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.languages-container > span {
+    border: 0;
+    border-radius: 4px;
+    background-color: rgb(239, 240, 244);
+    padding: 15px 25px;
+    margin: 15px;
+}
+
+.languages-container > span:nth-child(3n+1) {
+    color: white;
+    background-color: rgb(30, 205, 226);
+}
+
+.button-container {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.customBtn {
+    width: 200px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+
+    font-size: 16px;
+    font-weight: bolder;
+    color: lightgray;
+    text-transform: uppercase;
+    margin-right: 30px;
+
+    cursor: pointer;
+}
+
+.goBack {
+    border: 1px solid lightgray;
+}
+
+.proceed {
+    border: 0;
+    color: white;
+    background-color: rgba(174, 213, 129);
+}

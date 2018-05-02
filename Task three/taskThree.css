@@ -1,0 +1,81 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(248, 250, 255);
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    margin: 15% auto;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+.select-container {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 15px  rgb(224, 230, 246);
+
+    margin-bottom: 20px;
+}
+
+.custom-select, option {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    width: 280px;
+    color: lightgray;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+    cursor: pointer;
+}
+
+.select-div::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: url('arrow-down.png') no-repeat;
+    display: inline-block;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 5px;
+
+    cursor: pointer;
+}
+
+.select-options > a {
+    display: block;
+    text-decoration: none;
+    color: rgb(175, 185, 211);
+    margin: 5px;
+}
+
+a > span {
+    display: inline-block;
+    position: absolute;
+    margin-top: 5px;
+}
+
+a:hover {
+    background-color: rgb(224, 230, 246);
+} 
+
+.flag-image {
+    width: 30px;
+    margin-right: 20px;
+    border-radius: 3px;
+}

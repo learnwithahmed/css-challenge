@@ -1,0 +1,72 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(231, 231, 231);
+}
+
+.login-container {
+    width: 400px;
+    height: 500px;
+    margin: 10% auto;
+    padding: 40px;
+    border: 1px solid lightgray;
+    background-color: white;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.login-container > h1 {
+    font-size: 45px;
+}
+
+.row-div {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.row-div > label {
+    font-weight: bold;
+}
+
+.custom-input {
+    flex: 0 1 70%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+    color: rgb(202, 202, 202);
+    font-size: 15px;
+}
+
+.custom-selectbox {
+    /** Hide default arrow */
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    width: 275px;
+    cursor: pointer;
+}
+
+.select-div::after {
+
+    content: "";
+    position: absolute;
+    display: inline-block;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    margin-left: -20px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+select:focus,
+option:focus,
+.custom-selectbox:focus {
+    outline: none !important;
+}
