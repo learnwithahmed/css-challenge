@@ -1,0 +1,83 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(225, 241, 255);
+}
+
+.container {
+    width: 85%;
+    height: auto;
+    margin: 8% auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 20%;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+
+    background-color: white;
+    color: rgb(97, 97, 97);
+    border: none;
+    border-radius: 6px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner {
+    width: 60px;
+    height: 60px;
+    margin: 5px auto;
+}
+
+.header {
+    width: 70%;
+    text-align: center;
+    font-size: 17px;
+    margin: 20px auto;
+    color: rgb(10, 10, 24);
+}
+
+.detail {
+    width: 90%;
+    margin: 10px auto;
+    color: dimgrey;
+    text-align: center;
+}
+
+.line {
+    width: 40%;
+    margin: 25px auto;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.more-btn {
+    width: 180px;
+    height: 45px;
+    margin: 15px auto;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    outline: none;
+}
+
+.more-btn:hover {
+    color: white;
+    background-color: lightseagreen;
+    cursor: pointer;
+}
