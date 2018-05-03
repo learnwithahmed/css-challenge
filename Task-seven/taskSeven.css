@@ -1,0 +1,87 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    font-family: "Source Sans Pro","Roboto","Open Sans",Arial,sans-serif;
+
+    background-color: crimson;
+}
+
+.container {
+    width: 400px;
+    height: auto;
+    border: 1px solid lightgray;
+    background-color: white;
+
+    margin: 7% auto 0 auto;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    color: rgb(114, 121, 132);
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.line {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.resume {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    margin: 10px 0 10px 0;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.profile-detail {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.profile-detail > label {
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(145, 154, 168);
+}
+
+.company {
+
+    font-size: 16px;
+    color: rgb(61, 177, 212);
+    margin-top: 3px;
+}
+
+.freelancer {
+
+    font-size: 16px;
+    color: rgb(120, 221, 53);
+    margin-top: 3px;
+}
