@@ -20,6 +20,7 @@ section {
     color: rgb(79, 89, 102);
     box-shadow: 0px 0px 25px 2px lightgrey;
 
+    /** set displaying properties */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
