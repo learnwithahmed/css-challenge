@@ -1,0 +1,129 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    image-rendering: optimizeQuality;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(224, 224, 224);
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a > span {
+    font-weight: bold;
+}
+
+::-moz-placeholder {
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+}
+
+.tabs-container {
+
+    width: 450px;
+    height: auto;
+    margin: 5% auto;
+
+    color: rgb(51, 51, 51);
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 0px 15px 5px lightgray; 
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+.tabNames {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.tabNames > label {
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.green {
+    border-bottom: 0.2em solid rgb(11, 211, 178);
+}
+
+.grey {
+    border-bottom: 0.1em solid rgb(141, 141, 141);
+}
+
+.parts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+}
+
+.nameInput {
+    height: 35px;
+    padding: 5px;
+    margin: 20px 0 20px 0;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.unBorderedLink {
+    width: 200px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    color: rgb(11, 211, 178);
+    background-color: transparent;
+}
+
+.dateInput {
+    display: inline-block;
+    width: 46%;
+    height: 35px;
+    padding: 5px;
+    margin: 20px 0 20px 0;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.bottomSide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.saveBtn {
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(11, 211, 178);
+    cursor: pointer;
+
+    outline: none;
+}
+
+.deleteLink {
+    color: gray;
+    align-self: center;
+}
