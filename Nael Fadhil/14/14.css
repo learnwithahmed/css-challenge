@@ -1,0 +1,105 @@
+* {
+    /* border: 1px solid cadetblue; */
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.container {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px
+}
+
+.month {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    width: 100%;
+    background: #fffbfa;
+    color: rgb(61, 61, 61);
+}
+
+.year {
+    font-size: 20px
+}
+
+.arrow {
+    display: flex;
+    width: auto;
+    margin-right: 20px;
+    /* justify-self: flex-end; */
+}
+
+.next,
+.prev {
+    width: 27px;
+    height: 27px;
+    padding: 3px;
+    margin: 0 5px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.week,
+.day {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0px auto;
+    width: 100%;
+    background: #fffbfa;
+    color: rgb(59, 59, 59);
+    
+}
+
+.week li {
+    display: inline-block;
+    width: 9%;
+    padding: 10px;
+}
+
+.day {
+
+    flex-wrap: wrap;
+    
+}
+
+.day li {
+    display: inline-block;
+    width: 6%;
+    padding: 10px;
+}
+
+}
+
+.inactiv {
+    color: rgb(180, 180, 180)
+}
+
+.today:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgba(1, 68, 253, 0.63);
+    top: 2px;
+    right: 8px;
+    border-radius: 50%;
+}
+
+.selected:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgba(139, 139, 139, 0.219);
+    top: 2px;
+    right: 8px;
+    border-radius: 50%;
+}
