@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    image-rendering: optimizeQuality;
+    background: transparent url('resources/backgroundImg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.upperSide {
+    width: 40%;
+    height: auto;
+    margin: 5% auto;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line {
+    width: 10%;
+    border: none;
+    border-bottom: 2px solid #9efb4d;
+}
+
+.header {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.detail {
+    color: rgb(199, 199, 199);
+}
+
+.middleSide {
+
+    width: 70%;
+    height: auto;
+    margin: 3% auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto auto;
+}
+
+.card {
+    width: 400px;
+    height: 350px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 0px 15px 5px #e9e9e9;
+    cursor: pointer;    
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px 15px #e1e1e1
+}
+
+.card:hover::after {
+    
+    content: "↓";
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    padding-top: 10px;
+    margin-left: -25px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-color: #9efb4d;
+    color: white;
+    font-size: 30px;
+}
