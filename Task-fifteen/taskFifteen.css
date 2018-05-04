@@ -1,3 +1,4 @@
+
 html, body {
 
     margin: 0;
@@ -14,6 +15,10 @@ html, body {
     padding: 20px;
     background-color: rgb(37, 47, 72);
     box-shadow: 0px 0px 10px 3px lightgrey;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .upside {
@@ -24,36 +29,73 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    cursor: pointer;
 }
 
-.checkbox {
-    margin-top: 25px;
-    margin-bottom: 25px;
+
+input[type="checkbox"] + .text {
+    display: block;
+    margin: 20px 0 25px 40px;
+    cursor: pointer;
+    padding: 0.2em;
 }
 
-.checkbox input[type="checkbox"] {
-    opacity: 0;
+input[type="checkbox"] {
+    display: none;
 }
 
-.checkbox label {
-
-    font-size: 21px;
-    margin-bottom: 5px;
-    color: rgb(111, 124, 158);
+.text {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(103, 117, 153);
 }
 
-.checkbox label::before {
-    content: "";
+input[type="checkbox"] + .text:before {
+    content: "\2714";
+    color: transparent;
+    border: 0.2em solid lightgray;
+    border-radius: 0.2em;
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    border: 3px solid white;
-    margin-right: 30px;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 1em;  
+    vertical-align: middle;
 }
 
-.checkbox:nth-child(4n+1) {
-    padding: 15px;
-    border-radius: 10px;
+input[type=checkbox]:checked + label:before {
+    color: #fff;
+}
+
+input[type="checkbox"]:hover ,
+.text:hover {
     color: white;
-    background-color: rgb(92, 117, 250);
+    border-radius: 4px;
+    background-color: rgb(38, 122, 190);
+}
+
+.red + label.text::before {
+    border: 0.2em solid salmon;
+}
+
+.green + label.text::before {
+    border: 0.2em solid rgb(35, 204, 134);
+}
+
+.yellow + label.text::before {
+    border: 0.2em solid rgb(212, 212, 0);
+}
+
+.skyBlue + label.text::before {
+    border: 0.2em solid skyblue;
+}
+
+.pink + label.text::before {
+    border: 0.2em solid pink;
+}
+
+.default + label.text::before {
+    border: 0.2em solid rgb(103, 117, 153);
 }
