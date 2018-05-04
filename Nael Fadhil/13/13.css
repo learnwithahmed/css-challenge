@@ -1,0 +1,95 @@
+body {
+    /* border: 1px solid cadetblue; */
+    text-align: center;
+    background: antiquewhite
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.container {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.month {
+    padding: 10px 0px;
+    width: 100%;
+    background: #011335;
+    color: white;
+}
+
+.next {
+    float: right;
+    padding: 0 10px;
+}
+
+.prev {
+    float: left;
+    padding: 0 10px;
+}
+
+.week {
+    display: flex;
+    justify-content: center;
+    padding: 0 ;
+    margin: 0px auto;
+    width: 100%;
+    background: #f65b46;
+    color: white;
+}
+
+.week li {
+    display: inline-block;
+    width: 10%;
+    padding: 5px;
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px 0px;
+    width: 100%;
+    background: #ffffff;
+    color: rgb(32, 32, 32);
+    font-weight: bold;
+}
+
+.day li {
+    display: inline-block;
+    position: relative;
+    width: 10%;
+    padding: 5px;
+}
+
+.inactiv {
+    color: rgb(180, 180, 180)
+}
+
+
+.selected:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgba(139, 139, 139, 0.219);
+    top: 2px;
+    right: 8px;
+    border-radius: 50%;
+}
+
+.active:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: red;
+    top: 0px;
+    right: 8px;
+    border-radius: 50%;
+}
