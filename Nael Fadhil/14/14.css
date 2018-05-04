@@ -11,15 +11,13 @@ ul {
 
 .container {
     width: 300px;
-    border-radius: 10px;
-    overflow: hidden;
     padding: 20px
 }
 
 .month {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0px;
+    padding: 30px 10px;
     width: 100%;
     background: #fffbfa;
     color: rgb(61, 61, 61);
@@ -32,8 +30,7 @@ ul {
 .arrow {
     display: flex;
     width: auto;
-    margin-right: 20px;
-    /* justify-self: flex-end; */
+    
 }
 
 .next,
@@ -55,7 +52,7 @@ ul {
     width: 100%;
     background: #fffbfa;
     color: rgb(59, 59, 59);
-    
+    position: relative;
 }
 
 .week li {
@@ -65,9 +62,7 @@ ul {
 }
 
 .day {
-
     flex-wrap: wrap;
-    
 }
 
 .day li {
@@ -76,30 +71,23 @@ ul {
     padding: 10px;
 }
 
-}
-
 .inactiv {
     color: rgb(180, 180, 180)
 }
 
-.today:after {
-    content: "";
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    background: rgba(1, 68, 253, 0.63);
-    top: 2px;
-    right: 8px;
-    border-radius: 50%;
-}
-
+.today:after,
 .selected:after {
     content: "";
     position: absolute;
     width: 25px;
     height: 25px;
-    background: rgba(139, 139, 139, 0.219);
-    top: 2px;
+    background: rgba(1, 68, 253, 0.63);
+    top: 83px;
     right: 8px;
     border-radius: 50%;
+}
+
+.selected:after {
+    background: rgba(139, 139, 139, 0.219);
+    top: 6px;
 }

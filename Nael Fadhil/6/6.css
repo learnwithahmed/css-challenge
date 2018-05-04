@@ -27,7 +27,6 @@ h1 {
     display: flex;
     padding-left: 0px;
     list-style-type: none;
-    justify-content: space-between;
     flex-wrap: wrap;
     justify-content: space-around;
 }
