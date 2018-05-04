@@ -1,0 +1,118 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    image-rendering: optimizeQuality;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(224, 224, 224);
+}
+
+.calendar {
+    width: 900px;
+    height: 800px;
+    border: none;
+    margin: 3% auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.upside {
+    width: 100%;
+    padding: 20px 80px 10px 40px;
+    background-color: white;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    margin: 5% auto 3px auto;
+    color: rgb(105, 105, 105);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.upside > span {
+    margin-bottom: 5px;
+    color: rgb(190, 190, 190);
+}
+
+.upside > p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(105, 105, 105);
+    margin-top: 0;
+}
+
+.middleside {
+    width: 80%;
+    padding: 20px 150px;
+    background-color: white;
+    margin: 0 auto;
+    color: rgb(105, 105, 105);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.monthName {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 10px;
+}
+
+.arrows {
+    width: 60px;
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    align-self: center;
+}
+
+.bottomside {
+    width: 85%;
+    padding: 20px 127px;
+    background-color: white;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin: 0 auto;
+    color: rgb(105, 105, 105);
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.bottomside > span {
+
+    width: 45px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 28px;   
+
+    cursor: pointer;
+}
+
+.bottomside > span:nth-child(-n+7) {
+    color: lightgrey;
+}
+
+.markedDay {
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.today {
+    border-radius: 50%;
+    background-color: rgb(9, 188, 197);
+    color: white;
+}
