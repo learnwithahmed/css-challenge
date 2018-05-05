@@ -1,0 +1,149 @@
+.container {
+    /* height: 2000px;
+    border: 2px solid green; */
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bag-header {
+    margin-bottom: 30px;
+    border-bottom: 2px solid green;
+    padding: 10px;
+}
+
+.bag-header h1,
+span {
+    margin: 0;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #919598;
+}
+
+.bag-header span {
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.bag-detail {
+    display: flex;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.bag-image {
+    border: 1px solid;
+    width: 100px;
+    margin-right: 1%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.bag-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.bag-specfication {
+    width: 35%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bag-specfication h1,
+h3 {
+    margin: 0;
+}
+
+.bag-specfication h1.bag-model {
+    text-transform: uppercase;
+    font-size: 30px;
+    ;
+    font-weight: 600;
+    color: #3E3E3E;
+}
+
+.bag-specfication h3.bag-supscription {
+    text-transform: capitalize;
+    color: #D2D4D4;
+}
+
+.bag-qty {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 10%;
+}
+
+.bag-qty button {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #E7E7E7;
+    color: #484848;
+    background: none;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.bag-qty button:hover {
+    background: #51B7A8;
+    border: 2px solid #51B7A8;
+    color: white;
+}
+
+.bag-price {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1%;
+    text-transform: uppercase;
+}
+
+.row {
+    border-bottom: 2px solid green;
+}
+
+.summery {
+    /* height: 250px; */
+    /* border: 2px solid; */
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    text-transform: capitalize;
+}
+
+.summery-total,
+.summery-prices {
+    width: 49%;
+    /* border: 2px solid grey; */
+}
+
+.summery-total h2,
+.summery-prices h2 {
+    margin: 10px 0;
+}
+
+.summery-prices {
+    text-align: right;
+}
+
+.gift-button {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.gift-button button {
+    width: 250px;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 20px 0;
+    background: none;
+    border: 2px solid #5ABBAD;
+    color: #5ABBAD;
+}
