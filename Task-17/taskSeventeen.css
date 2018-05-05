@@ -75,12 +75,25 @@ a > span {
     padding: 20px;
 }
 
-.nameInput {
+#nameInput {
     height: 35px;
     padding: 5px;
     margin: 20px 0 20px 0;
     border: 1px solid lightgray;
     border-radius: 4px;
+    font-size: inherit;
+}
+
+input[type="text"]#nameInput + span::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: -45px;
+    margin-left: 380px;
+    background-color: rgb(11, 211, 178);
 }
 
 .unBorderedLink {
@@ -101,6 +114,7 @@ a > span {
     border: 1px solid lightgray;
     border-radius: 4px;
     text-align: center;
+    font-size: inherit;
 }
 
 .bottomSide {
@@ -119,7 +133,7 @@ a > span {
     border-radius: 30px;
     background-color: rgb(11, 211, 178);
     cursor: pointer;
-
+    font-size: inherit;
     outline: none;
 }
 
