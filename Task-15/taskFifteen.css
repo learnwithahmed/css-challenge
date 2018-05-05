@@ -21,6 +21,30 @@ html, body {
     justify-content: space-between;
 }
 
+::-moz-placeholder {
+    color: rgb(103, 117, 153);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(103, 117, 153);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#search {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
 .upside {
     margin: 15px;
     color: white;
@@ -33,6 +57,9 @@ html, body {
     cursor: pointer;
 }
 
+.upside > i {
+    padding-top: 10px;
+}
 
 input[type="checkbox"] + .text {
     display: block;
@@ -59,7 +86,7 @@ input[type="checkbox"] + .text:before {
     display: inline-block;
     width: 1em;
     height: 1em;
-    padding-left: 0.2em;
+    padding-left: 0.4em;
     padding-bottom: 0.3em;
     margin-right: 1em;  
     vertical-align: middle;
