@@ -54,15 +54,16 @@ body {
     color: #A0AEC1;
     padding: 10px;
 }
-
-hr {
-    width: 50px;
-    background: #000;
-    display: block;
+.divider
+{
+    width: 75px;
+    height: 2px;
+    background: #A0AEC1;
 }
 
 .learn-more {
     padding: 15px;
+    margin: 5px 0;
 }
 
 .learn-more button {
@@ -81,6 +82,6 @@ hr {
     border-radius: 25px;
 }
 
-.learn-more button:hover hr {
-    opacity: 0;
+.learn-more button:hover + div.divider{
+    display: none;
 }
