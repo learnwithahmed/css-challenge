@@ -1,0 +1,101 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    width: 15%;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+body {
+    background: #F5DBB6;
+    margin: 0;
+}
+
+.container {
+    width: 100vh;
+    margin: 70px auto;
+    border-radius: 5px;
+}
+
+.month-header {
+    border: 1px solid gray;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.month-header .month-name,
+.right,
+.left {
+    width: 30%;
+    align-self: center;
+    padding: 5px;
+    color: white;
+}
+
+.month-header {
+    background: #1B363F;
+}
+
+.month-name {
+    flex: 2;
+    order: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.right {
+    order: 1;
+    text-align: right;
+}
+
+.week-days ul {
+    background: #FF623F;
+}
+
+.week-days ul li {
+    color: white;
+}
+
+.month-days {
+    background: white;
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.month-days .row ul li.diffrent-month {
+    color: #DBD9D6;
+}
+
+.month-days .row:nth-child(3) ul li:nth-child(2) {
+    background: red;
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+
+}
+
+.month-days .row p {
+    text-align: center;
+    padding: 10px 0;
+    color: #DBD9D6;
+    font-size: 15px;
+    font-weight: bolder;    
+}
+
+.month-days .row p span {
+    text-decoration: #DBD9D6;
+}
