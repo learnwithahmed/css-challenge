@@ -1,0 +1,94 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #F8F8F8;
+    height: 500px;
+}
+
+.container {
+    height: 100vh;
+    width: 100vh;
+    margin: 0 auto;
+    padding: 10px;
+    background: #F8F8F8;
+}
+
+.month-header {
+    display: flex;
+    padding: 5px;
+    background: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 5px;
+    color: #808080
+}
+
+.month-name {
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 25px;
+}
+
+.left,
+.right {
+    border-radius: 50%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D7D7D7;
+}
+
+.left i,
+.right i {
+    color: #AFAFAF;
+    font-weight: normal;
+}
+
+.left {
+    margin: 0 15px;
+}
+
+table {
+    width: 100%;
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+    color: #808080;
+    text-transform: uppercase;
+}
+
+td {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+td.diffrent-month {
+    color: #F0F0F0
+}
+
+tr:nth-child(2) td:nth-child(3) {
+    width: 5px;
+    height: 5px;
+    background: #F7F7F7;
+    border-radius: 50%;
+}
+
+tr:nth-child(3) td:nth-child(6) {
+    width: 5px;
+    height: 5px;
+    background: #2278EC;
+    border-radius: 50%;
+    color: white;
+}
