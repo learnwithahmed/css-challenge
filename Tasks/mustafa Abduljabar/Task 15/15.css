@@ -1,0 +1,113 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    background: #232F49;
+    margin: 50px auto;
+    padding: 25px;
+    width: 100vh;
+    box-shadow: 5px 0px 10px #5A73A0;
+}
+
+.search-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.search-box {
+    width: 90%;
+}
+
+.search-btn {
+    width: 5%;
+}
+
+.search-box input {
+    width: 100%;
+    background: transparent;
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white;
+    font-size: 15px;
+}
+
+.search-btn button {
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+table {
+    margin-top: 50px;
+    width: 75%;
+    padding: 0 50px;
+}
+
+table label {
+    cursor: pointer;
+}
+
+td {
+    padding: 20px;
+    font-size: 20px;
+}
+
+table input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]+span.label-text::before {
+    content: "\f0c8";
+    font-family: "Font Awesome 5 free";
+    margin-right: 35px;
+}
+
+input[type=checkbox]:checked+span.label-text::before {
+    content: "\f14a";
+    font-family: "Font Awesome 5 free";
+    color: white;
+}
+
+span.label-text p {
+    display: inherit;
+    font-weight: bold;
+    color: #828CA6;
+    text-transform: capitalize;
+}
+
+td.one {
+    color: #FF9493;
+}
+
+td.two {
+    color: #52EFC9;
+}
+
+td.three {
+    color: #BF9127;
+}
+td.four
+{
+    color: red
+}
+td.five
+{
+    color: #5BDAFF;
+}
+td.six
+{
+    color: #F791FF;
+}
+td.seven
+{
+    color: #8DB3FE;
+}
