@@ -74,7 +74,6 @@ input[type=checkbox]+span.label-text::before {
 input[type=checkbox]:checked+span.label-text::before {
     content: "\f14a";
     font-family: "Font Awesome 5 free";
-    color: white;
 }
 
 span.label-text p {
@@ -83,6 +82,17 @@ span.label-text p {
     color: #828CA6;
     text-transform: capitalize;
 }
+
+td:hover
+{
+    background: #5878FF;
+    border-radius: 25px;
+}
+td:hover span.label-text p,td:hover input[type=checkbox]+span.label-text::before
+{
+    color: white;
+}
+
 
 td.one {
     color: #FF9493;
