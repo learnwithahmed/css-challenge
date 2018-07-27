@@ -14,4 +14,4 @@ The tasks will be a set of images that you will convert them into HTML markdown 
 4. Create a new folder also with your fullname then for each task make another folder including (filename.html and style.css) file.
 5. Then stage your changes using `git add` and `git commit` to commit to your code.
 6. Push your **branch** up to GitHub: <br>
-7. `git push -u origin your-full-name`.
+7. `git push -u origin your-full-name`..
