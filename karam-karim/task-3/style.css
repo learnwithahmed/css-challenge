@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(198,200,197);
+    font-family: Open Sans;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.dropdown{
+    background-color: #fff;
+    list-style: none;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px -20px 307px 10px grey;
+
+}
+/* the header */
+.dropdown::before{
+    content: attr(data-text);
+    color: lightgrey;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 1.5em;
+    width: 22em;
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: -40%;
+    left: 0;
+    background-image: url(arrow-down.png);
+    background-position: calc(100% - 10px);
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+/* the country names */
+
+.option{
+    color: grey;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    width: 25em;
+    padding: 1.5em;
+    padding-left: 4em;
+    position: relative;
+}
+
+/*  the country image */
+.option::before{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top:50%;
+    transform: translateY(-50%);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.option:nth-child(1)::before{
+    background-image: url(france.png);
+}
+
+.option:nth-child(2)::before{
+    background-image: url(germany.png);
+}
+
+.option:nth-child(3)::before{
+    background-image: url(united-kingdom.png);
+}
+
+.option:nth-child(4)::before{
+    background-image: url(poland.png);
+}

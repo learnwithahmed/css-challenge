@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+    font-family: Open Sans;
+}
+
+
+.container {
+    padding: 2em;
+}
+
+.header{
+    font-size: 2em;
+    margin: 0;
+}
+
+.input {
+    display: flex;
+    margin: 2em 0;
+    justify-content: space-between;
+}
+
+.input > p{
+    text-align: left;
+    font-weight: bold;
+    margin: 0 1em;
+    line-height: 2.8em;
+    align-items: center;
+}
+
+.input > input[type="text"] ,
+.input > input[type="email"]{
+    border: none;
+    padding: 1em;
+    padding-left: 0 !important;
+    background-color: transparent;
+    border-bottom: 2px solid lightgrey;
+    transition: all linear .3s;
+}
+
+.input > input[type="text"]:focus ,
+.input > input[type="email"]:focus{
+    border-color: grey;
+}
+
+.input > select{
+    width: 69%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    color: grey;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(arrow-down.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 10px;
+}
