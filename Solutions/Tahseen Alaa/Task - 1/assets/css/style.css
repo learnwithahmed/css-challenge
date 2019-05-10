@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 50px auto;
+    text-align: center;
+    /* left: 20%; */
+}
+
+/* section {
+    text-align: center;
+} */
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #4F5362;   
+}
+
+h4 {
+    color: #646568;
+    font-weight: normal;
+}
+
+.backSpace {
+    background-color: #fff;
+    width: 750px;
+    height: 250px;
+    position: relative;
+    margin: 100px auto auto 50px;
+    border-radius: 3px;
+    box-shadow: 10px 10px 50px 30px #EFF0F4;
+    /* padding: 50px 50px 50px 50px;
+    left: 27%;
+    text-align: center; */
+    
+    /* Fix by Ahmed Abdullah */
+    margin: 100px auto 50px;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.btn {
+    text-align: center;
+    padding: 12px 20px 12px 20px;
+    margin: 10px 5px 10px 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-align: center;
+    color: #111;
+    background-color: #EFF0F4;
+}
+
+.btn1, .btn2, .btn6, .btn11 {
+    background-color: #1ECDE2;
+    color: #fff;
+}
+
+
+.checkOutButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.btnGoBack {
+    padding-right: 50px;
+}
+
+.btnGoBack button, .btnProcees button {
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 2px solid #EFF0F4;
+    background-color: transparent;
+    color: #b8b9bc;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btnProcees button {
+    background-color: #AED581;
+    color: #fff;
+}
